@@ -32,7 +32,7 @@
                             <div class="sb-sidenav-menu-heading">Main</div>
                             <a class="nav-link" href="../panel/pos-panel.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-cash-register"></i></div>
-                                Point of Sale 
+                                Order & Tables 
                             </a>
                             <a class="nav-link" href="../panel/bill-panel.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-receipt"></i></div>

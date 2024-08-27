@@ -145,7 +145,7 @@ function createNewBillRecord($table_id) {
             <div class="col-md-4 order-md-2 m-1" id="cart-section" >
                 <div class="container-fluid pt-5 pl-600 pr-6 row mt-3" style="max-width: 200%; width:150%;">
                     <div class="cart-section" >
-                        <h3>Cart</h3>
+                        <h3>Order</h3>
                         <table class="table table-bordered">
                             <thead>
                             <tr>
@@ -217,15 +217,15 @@ function createNewBillRecord($table_id) {
         <tbody>
             <tr>
                 <td><strong>Cart Total</strong></td>
-                <td>RM <?php echo number_format($cart_total, 2); ?></td>
+                <td>ETB <?php echo number_format($cart_total, 2); ?></td>
             </tr>
             <tr>
                 <td><strong>Cart Taxed</strong></td>
-                <td>RM <?php echo number_format($cart_total * $tax, 2); ?></td>
+                <td>ETB <?php echo number_format($cart_total * $tax, 2); ?></td>
             </tr>
             <tr>
                 <td><strong>Grand Total</strong></td>
-                <td>RM <?php echo number_format(($tax * $cart_total) + $cart_total, 2); ?></td>
+                <td>ETB <?php echo number_format(($tax * $cart_total) + $cart_total, 2); ?></td>
             </tr>
         </tbody>
     </table>
